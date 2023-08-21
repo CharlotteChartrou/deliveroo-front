@@ -54,10 +54,8 @@ function App() {
                             {" "}
                             <h3>{meals.title}</h3>
                             <div className="meal-description">
-                              <span>
-                                {meals.description}
-                                <div>{meals.price}€</div>
-                              </span>
+                              <span className="text">{meals.description}</span>
+                              <span>{meals.price}€</span>
                             </div>
                           </div>
                           <img src={meals.picture} />
