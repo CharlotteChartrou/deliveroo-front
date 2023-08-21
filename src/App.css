@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Stratos Deliveroo Web";
+  src: url("./assets/fonts/StratosDeliverooWeb-SemiBold.eot");
+  src: url("./assets/fonts/StratosDeliverooWeb-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/StratosDeliverooWeb-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/StratosDeliverooWeb-SemiBold.woff") format("woff"),
+    url("./assets/fonts/StratosDeliverooWeb-SemiBold.ttf") format("truetype"),
+    url("./assets/fonts/StratosDeliverooWeb-SemiBold.svg#StratosDeliverooWeb-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("./assets/fonts/IBMPlexSans-Bold.eot");
+  src: url("./assets/fonts/IBMPlexSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IBMPlexSans-Bold.woff2") format("woff2"),
+    url("./assets/fonts/IBMPlexSans-Bold.woff") format("woff"),
+    url("./assets/fonts/IBMPlexSans-Bold.ttf") format("truetype"),
+    url("./assets/fonts/IBMPlexSans-Bold.svg#IBMPlexSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("./assets/fonts/IBMPlexSans.eot");
+  src: url("./assets/fonts/IBMPlexSans.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/IBMPlexSans.woff2") format("woff2"),
+    url("./assets/fonts/IBMPlexSans.woff") format("woff"),
+    url("./assets/fonts/IBMPlexSans.ttf") format("truetype"),
+    url("./assets/fonts/IBMPlexSans.svg#IBMPlexSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+#root {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-style: normal;
+  background-color: lightgray;
+}
+
+.menu {
+  width: 850px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: lightgrey;
+  font-size: 19px;
+}
+
+.bloc-titre img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+main img {
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.bloc-titre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  border-top: solid 1px #868a8a;
+}
+
+header {
+  background-color: white;
+}
+
+header img {
+  width: 160px;
+  object-fit: cover;
+  padding: 10px 0;
+}
+
+h2 {
+  color: #2e3333;
+  font-weight: bold;
+  font-size: 24px;
+  width: 850px;
+  margin-top: 20px;
+}
+
+.meals {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bloc {
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  display: flex;
+
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.meals span {
+  font-size: 14px;
+  color: #808484;
+}
+
+.bloc-meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.meal-description {
+  display: flex;
+}
+h3 {
+  font-weight: regular;
+  font-size: 18px;
+  color: #2e3333;
+  margin-bottom: 10px;
+}
